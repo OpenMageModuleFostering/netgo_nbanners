@@ -12,7 +12,7 @@
  *
  */
 -->
-<layout version="0.1.0">
+<layout version="1.0.0">
   <nbanners_adminhtml_nbanners_index>
 	<reference name="content">
 	  <block type="nbanners/adminhtml_nbanners" name="nbanners" />

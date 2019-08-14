@@ -18,6 +18,11 @@ class Netgo_Nbanners_Helper_Data extends Mage_Core_Helper_Abstract
 		return $enableDisableValue;
 		
 	}
+	/*public function enablejquery(){
+		$enableJqueryValue = Mage::getStoreConfig('netgo_nbanners/netgo_nbanners_group/enablejquery', Mage::app()->getStore());
+		return $enableJqueryValue;
+		
+	}*/
 	public function showpagination(){
 		$paginationValue = Mage::getStoreConfig('netgo_nbanners/netgo_nbanners_group/pagination', Mage::app()->getStore());
 		return $paginationValue;

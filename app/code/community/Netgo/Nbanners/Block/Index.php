@@ -15,11 +15,7 @@ class Netgo_Nbanners_Block_Index extends Mage_Core_Block_Template{
 
 public function __construct()
     {
-       parent::__construct();
-       
-        //echo "id is".$this->getGroup();die;
-		//$status = Netgo_Nbanners_Helper_Data::enabledisable();     
-        
+       parent::__construct();  
     }
 
 public function getSliderCollection()
@@ -28,8 +24,7 @@ public function getSliderCollection()
         
 		$collection = Mage::getModel('nbanners/nbanners')->getCollection();
 		$collection->addFieldToFilter('nbanners_status', 1);
-		$collection->addFieldToFilter('nbannergroup', $this->getGroup());//
-       // $this->setCollection($collection);
+		$collection->addFieldToFilter('nbannergroup', $this->getGroup());
 		return $collection;
         
     }
