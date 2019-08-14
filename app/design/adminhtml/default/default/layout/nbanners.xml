@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<!--
+/***************************************
+ *** Complete RWD Slider ***
+ ***************************************
+ *
+ * @copyright   Copyright (c) 2015
+ * @company     NetAttingo Technologies
+ * @package     Netgo_Nbanners
+ * @author 		Vipin
+ * @dev			77vips@gmail.com
+ *
+ */
+-->
+<layout version="0.1.0">
+  <nbanners_adminhtml_nbanners_index>
+	<reference name="content">
+	  <block type="nbanners/adminhtml_nbanners" name="nbanners" />
+	</reference>
+  </nbanners_adminhtml_nbanners_index>
+</layout>

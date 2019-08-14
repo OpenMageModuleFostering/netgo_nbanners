@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+<package>
+    <name>Netgo_Nbanners</name>
+    <version>1.0.0</version>
+    <stability>stable</stability>
+    <license>Open Software License (OSL)</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>This extension is used to create banner slider on cms pages.</summary>
+    <description>&lt;p&gt;RWD responsive theme gave great various functionality,one of which is cycle2 slider inbuilt with it. The front end output was quite fascinating with the slider but back end management became headache for non technical clients as it didn't give any feature of uploading images of back end. As an alternative to upload images, images were uploaded via CMS page or WYSIWYG editor so to overcome complexity we emphasized on developing Complete RWD Slider.&lt;/p&gt;&#xD;
+&lt;p&gt;It uses Slideshow.js library and allow to configure it in admin (slide effects, slides speed, slides pagination).&lt;/p&gt;&lt;br/&gt;&#xD;
+&lt;p&gt;You can put each single slider banner in a group and call them in cms pages by created group names.&lt;/p&gt;&#xD;
+&lt;p&gt;"Complete RWD Slider" is fully responsive slider.&lt;/p&gt;&lt;br/&gt;&#xD;
+&lt;p&gt;&lt;b&gt;Key features:&lt;/b&gt;&lt;/p&gt;&#xD;
+&lt;ul&gt;&#xD;
+&lt;li&gt;Group&lt;/li&gt;&#xD;
+&lt;li&gt;Name&lt;/li&gt;&#xD;
+&lt;li&gt;Alt text&lt;/li&gt;&#xD;
+&lt;li&gt;Caption&lt;/li&gt;&#xD;
+&lt;li&gt;Caption Position&lt;/li&gt;&#xD;
+&lt;li&gt;Banner Image&lt;/li&gt;&#xD;
+&lt;li&gt;Status&lt;/li&gt;&#xD;
+&lt;/ul&gt;&lt;br/&gt;&#xD;
+&lt;p&gt;&lt;b&gt;Advantages:&lt;/b&gt;&lt;/p&gt;&#xD;
+&lt;ul&gt;&#xD;
+&lt;li&gt;Provides Back end settings for slider images and uploading.&lt;/li&gt;&#xD;
+&lt;li&gt;Allows Multi effects on images.&lt;/li&gt;&#xD;
+&lt;li&gt;Enabled Vertical scrolling through js.&lt;/li&gt;&#xD;
+&lt;li&gt;Responsive and flexible to design.&lt;/li&gt;&#xD;
+&lt;li&gt;Admin friendly.&lt;/li&gt;&#xD;
+&lt;li&gt;Easy to customize.&lt;/li&gt;&#xD;
+&lt;/ul&gt;&#xD;
+</description>
+    <notes>First Preview Release</notes>
+    <authors><author><name>Vipin</name><user>admin</user><email>77vips@gmail.com</email></author></authors>
+    <date>2015-07-07</date>
+    <time>07:36:53</time>
+    <contents><target name="magecommunity"><dir name="Netgo"><dir name="Nbanners"><dir name="Block"><dir name="Adminhtml"><dir name="Nbanners"><dir name="Edit"><file name="Form.php" hash="3fbe2145660cc1cdcfaa4aea0fa32435"/><dir name="Tab"><file name="Form.php" hash="81ba3e1064888386fcf4f6333d00ed67"/></dir><file name="Tabs.php" hash="2fd49e481e123ee0e08cbd237f0a6710"/></dir><file name="Edit.php" hash="5a9713fe01d8da0c549295b7ca241436"/><file name="Grid.php" hash="7a8347fadb7a63b7321e6e543eaffb21"/></dir><file name="Nbanners.php" hash="7e95662669baaf96bc83dccb692bbbab"/></dir><file name="Index.php" hash="a3916ce151ec2ca0176090c687b41181"/><file name="Left.php" hash="b16d7bdb474517707c7a7142f4aa8320"/></dir><dir name="Helper"><file name="Data.php" hash="b635503d3f86887d68e9062be24806d8"/></dir><dir name="Model"><dir name="Adminhtml"><dir name="System"><dir name="Config"><dir name="Source"><file name="Effects.php" hash="3e3d577e67b7e01de234bab5f21dd989"/></dir></dir></dir></dir><dir name="Mysql4"><dir name="Nbanners"><file name="Collection.php" hash="fac1cd030448246abf05c328d944a03d"/></dir><file name="Nbanners.php" hash="1a7bd7119a93f3c98d6c02a2fc391fe1"/></dir><file name="Nbanners.php" hash="dac54ae33ada538c2ca88ebf3ccea594"/></dir><dir name="controllers"><dir name="Adminhtml"><file name="NbannersController.php" hash="fcb2ac3302931641f7fd1b4ff366bcfc"/></dir><file name="IndexController.php" hash="13f5eba780c38400b5077dd596c75121"/></dir><dir name="etc"><file name="adminhtml.xml" hash="abea19749af37315b7868c88faf925b2"/><file name="config.xml" hash="7faa97cd95535793d9c6755d9ced07bf"/><file name="system.xml" hash="7269026fa87e25dfaa510ebb0df693db"/></dir><dir name="sql"><dir name="nbanners_setup"><file name="mysql4-install-0.1.0.php" hash="12e363f298a894301919dfcd7da3beee"/></dir></dir></dir></dir></target><target name="magedesign"><dir name="adminhtml"><dir name="default"><dir name="default"><dir name="layout"><file name="nbanners.xml" hash="4aaadd7a3c466e955d5edfffb35e6bba"/></dir></dir></dir></dir><dir name="frontend"><dir name="base"><dir name="default"><dir name="layout"><file name="nbanners.xml" hash="5022ae4f21a881a82cdc43af695a0ba3"/></dir><dir name="template"><dir name="nbanners"><file name="index.phtml" hash="474ef5d2cb2c0d68beb2c77c067aad45"/><file name="left.phtml" hash="0285dc1e312060f0a98a9e3569f72cdd"/></dir></dir></dir></dir></dir></target><target name="mageskin"><dir name="frontend"><dir name="base"><dir name="default"><dir name="js"><dir name="lib"><dir name="nbanners"><file name="jquery.cycle2.scrollVert.js" hash="06e50735f44de6c820f35df17b961471"/></dir></dir></dir></dir></dir></dir></target><target name="mage"><dir name="."><file name="readme.txt" hash="c9fb3cb27c49e8b10554c438599b09fb"/></dir></target><target name="mageetc"><dir name="modules"><file name="Netgo_Nbanners.xml" hash="24ce7bfae01dbc677c2e968c386a3698"/></dir></target></contents>
+    <compatible/>
+    <dependencies><required><php><min>5.1.0</min><max>6.0.0</max></php></required></dependencies>
+</package>
