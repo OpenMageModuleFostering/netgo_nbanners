@@ -5,11 +5,11 @@ Note: If you are using theme other than rwd, follow this extra steps
 
 1) Put these in app/design/frontend/base/default/template/nbanners/index.phtml file
 
-<script type="text/javascript" src="<?php echo Mage::getBaseUrl(Mage_Core_Model_Store::URL_TYPE_SKIN); ?>frontend/rwd/default/js/lib/jquery.cycle2.min.js"></script>
+<script type="text/javascript" src="<?php echo Mage::getBaseUrl(Mage_Core_Model_Store::URL_TYPE_SKIN); ?>frontend/your_package_name/your_theme_name/js/lib/jquery.cycle2.min.js"></script>
 
-<script type="text/javascript" src="<?php echo Mage::getBaseUrl(Mage_Core_Model_Store::URL_TYPE_SKIN); ?>frontend/rwd/default/js/lib/jquery.cycle2.swipe.min.js"></script>
+<script type="text/javascript" src="<?php echo Mage::getBaseUrl(Mage_Core_Model_Store::URL_TYPE_SKIN); ?>frontend/ your_package_name/your_theme_name/js/lib/jquery.cycle2.swipe.min.js"></script>
 
-<script type="text/javascript" src="<?php echo Mage::getBaseUrl(Mage_Core_Model_Store::URL_TYPE_SKIN); ?>frontend/rwd/default/js/slideshow.js"></script>
+<script type="text/javascript" src="<?php echo Mage::getBaseUrl(Mage_Core_Model_Store::URL_TYPE_SKIN); ?>frontend/ your_package_name/your_theme_name/js/slideshow.js"></script>
 
 
 2) Now in page.xml file put:
