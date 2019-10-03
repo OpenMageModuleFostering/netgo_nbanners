@@ -1,7 +1,7 @@
 {
-    "name": "OpenMageModuleFostering\/Netgo_Nbanners",
+    "name": "openmage-module-fostering\/netgo_nbanners",
     "type": "magento-module",
-    "license": "Open-Software-License-(OSL)",
+    "license": "OSL-3.0",
     "homepage": "",
     "description": "This extension is used to create banner slider on cms pages.",
     "authors": [
